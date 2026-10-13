@@ -1,0 +1,36 @@
+---
+title: "Canola Data Analysis"
+author: "Jake Jungers"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+This file reports research finding from 2026 canola field trials conducted in Minnesota. Experiments include:
+
+1.  nrt_can_26 - Nitrogen rate by timing conducted at the Canola Production Centre (CPC), Magnusson Research Farm (MAG), and the UMN St. Paul Campus (SP).
+
+2.  of_can_26 - A subset of the treatments were tested on-farm.
+
+3.  sr_can_26 - A sulfur fertilization experiment conducted at MAG and SP
+
+4.  v_can_26 - A variety trial conducted at CPC
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
